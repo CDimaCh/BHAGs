@@ -1,0 +1,118 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 50px 0 0 0;
+    background-color: #DADFE1;
+}
+
+.navbar {
+    display: block;
+    background: #003142;
+    margin-bottom: 5%;
+}
+
+.navbar-brand {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-toggle {
+    position: absolute;
+    float: left;
+    margin-left: 15px;
+}
+
+@media (min-width: 1px) {
+    .navbar-toggle {
+        display: block !important;
+    }
+}
+
+.navbar-default .navbar-text {
+    color: white;
+}
+
+.searchForm {
+    padding: 5% 3% 3% 2%;
+}
+
+.btn-default {
+    color: whitesmoke;
+    text-shadow: none;
+    background: #22A7F0;
+    border-radius: 6px;
+    padding: 12px 24px 12px 24px;
+    margin-left: 2%;
+}
+
+.form-control {
+    border-radius: 25px;
+    border: 0;
+    width: 105% !important;
+    padding: 24px 100px 24px 24px;
+    line-height: 50px;
+}
+
+input::-webkit-input-placeholder {
+    font-weight: 600;
+}
+
+input:focus::-webkit-input-placeholder {color: transparent}
+
+.inlineletter {
+    width: auto;
+    float: left;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+
+.letter {
+    color: #A5A9AA;
+    font-size: 140%;
+    text-decoration: none !important;
+}
+
+.letter:hover {
+    color: #DD5F4C;
+    text-decoration: none;
+}
+
+.styleForCountry {
+    padding: 1%;
+}
+
+.country {
+    color: #22343A;
+    font-size: 130%;
+    text-decoration: none !important;
+}
+
+.country:hover {
+    color: #35ACEF;
+    text-decoration: none;
+}
+
+.country {
+     display: inline-block;
+     vertical-align: top;
+     margin-right: -4px;
+     padding: 5px 2% 0;
+}
+@media (min-width: 800px) {
+    .country {
+        width: 25%;        
+    }
+}
+@media (max-width: 800px) {
+    .country {
+        width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .country {
+        width: 100%;
+    }
+}
