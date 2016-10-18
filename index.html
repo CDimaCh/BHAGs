@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cities</title>
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link href="style/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="style/font-awesome.min.css" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/init.js" ></script>
+</head>
+<body>
+   <!-- Header-->
+    <div class="container-fluid">
+        <div class="row">
+            <nav role="navigation" class="navbar navbar-default navbar-fixed-top hidden-tablet">
+                <div class="navbar-header header col-xs-7 col-sm-10 col-md-8 col-lg-10">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="nav nav-pills">
+                    </ul>
+                </div>
+                <p class="navbar-text navbar-right col-xs-5 col-sm-2 col-md-4 col-lg-2"><b><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Москва</b><a href="#" class="navbar-link">	&#160;Закрыть</a></p>
+            </nav>
+        </div>
+    </div>
+    <!--Content-->
+    <div class="container">
+        <div class="searchForm">
+           <form class="form-inline">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="searchCountries" placeholder="Введите название города">
+                </div>
+            <button type="submit" id="search" class="btn btn-default"><b>Выбрать</b></button>
+            </form>
+        </div>
+        <div class="container">
+            <div id="alphabet">
+
+            </div>
+        </div>
+        <div class="container">
+            <div id="output">
+
+            </div>  
+        </div>  
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <p class="text-center"></p>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
